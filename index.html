@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prática pedagógica e docência no mundo digital</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,600&family=Source+Sans+3:wght@400;600&display=swap">
+<style>
+:root{--bg:#EDF2F4;--ink:#12222B;--mute:#4A5E69;--acc:#0B7C80;--ten:#B4400F;--card:#FFFFFF;--line:#C5D3D9;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0F1A20;--ink:#E6EEF1;--mute:#9DB2BC;--acc:#4FC3C6;--ten:#F08A5D;--card:#17262E;--line:#2C424D}}
+:root[data-theme="dark"]{--bg:#0F1A20;--ink:#E6EEF1;--mute:#9DB2BC;--acc:#4FC3C6;--ten:#F08A5D;--card:#17262E;--line:#2C424D}
+*,*::before,*::after{box-sizing:inherit}
+html,body{height:100%;margin:0}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{background:var(--bg);color:var(--ink);font:400 clamp(15px,1.55vw,20px)/1.5 "Source Sans 3",system-ui,sans-serif;overflow:hidden}
+.deck{height:100%;position:relative}
+.slide{position:absolute;inset:0 0 56px 0;padding:clamp(20px,5vh,56px) clamp(20px,6vw,88px);overflow-y:auto;display:none;flex-direction:column;justify-content:center;gap:1rem}
+.slide.on{display:flex}
+h1,h2{font-family:Newsreader,Georgia,serif;font-weight:600;line-height:1.12;margin:0}
+h1{font-size:clamp(30px,5.4vw,68px);max-width:18ch}
+h2{font-size:clamp(24px,3.4vw,44px);max-width:26ch}
+h3{font-family:Newsreader,Georgia,serif;font-size:1.15em;margin:0 0 .3rem;color:var(--acc)}
+p{margin:0}
+.sub{color:var(--mute);max-width:60ch}
+.grid{display:grid;gap:clamp(10px,1.6vw,22px);grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr))}
+.box{background:var(--card);border-left:4px solid var(--acc);padding:.9rem 1.1rem;border-radius:2px}
+.box.t{border-left-color:var(--ten)}
+.box.t h3{color:var(--ten)}
+.box ul{margin:.3rem 0 0;padding-left:1.1rem}
+.box li{margin:.2rem 0}
+.note{font-size:.82em;color:var(--mute);max-width:75ch}
+.strip{border-top:1px solid var(--line);padding-top:.7rem;color:var(--mute);max-width:70ch}
+nav{position:fixed;left:0;right:0;bottom:0;height:calc(56px + env(safe-area-inset-bottom,0px));padding:0 clamp(16px,4vw,48px) env(safe-area-inset-bottom,0px);display:flex;align-items:center;justify-content:space-between;background:var(--bg);border-top:1px solid var(--line)}
+nav button{font:600 1em "Source Sans 3",system-ui,sans-serif;color:var(--ink);background:none;border:1px solid var(--line);border-radius:3px;padding:.45rem 1rem;cursor:pointer}
+nav button:hover{border-color:var(--acc)}
+nav button:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+nav button:disabled{opacity:.35;cursor:default}
+#c{color:var(--mute)}
+</style>
+</head>
+<body>
+<main class="deck" id="deck">
+
+<section class="slide on">
+<h1>Prática pedagógica e docência no mundo digital</h1>
+<p class="sub">Síntese do artigo de Maria Amélia do Rosario Santoro Franco, “Prática pedagógica e docência: um olhar a partir da epistemologia do conceito” (RBEP, v. 97, n. 247, 2016), em diálogo com a BNCC Computação.</p>
+<p class="strip">Pergunta-guia: o que muda, e o que permanece, no sentido da prática docente quando o digital entra na sala de aula?</p>
+</section>
+
+<section class="slide">
+<h2>Educativa, pedagógica, docente: três práticas que não se confundem</h2>
+<div class="grid">
+<div class="box"><h3>Prática educativa</h3><p>Práticas sociais que concretizam processos educacionais, de modo amplo, difuso e imprevisível. A educação é o objeto de estudo da Pedagogia.</p></div>
+<div class="box"><h3>Prática pedagógica</h3><p>Prática social com finalidade de concretizar processos pedagógicos. Funciona como filtro que dá sentido e direção às práticas educativas. Exige intencionalidade e reflexão coletiva.</p></div>
+<div class="box"><h3>Prática docente</h3><p>Nem toda prática docente é pedagógica. Torna-se pedagógica quando se insere em intencionalidades conscientes, sustentadas por “vigilância crítica” do professor.</p></div>
+</div>
+<p class="strip">Apoio em Carr: <b>poiesis</b> é fazer regido por fins prefixados e regras predeterminadas; <b>práxis</b> é ação reflexiva, orientada por critérios éticos.</p>
+</section>
+
+<section class="slide">
+<h2>Duas racionalidades pedagógicas, um continuum</h2>
+<div class="grid">
+<div class="box t"><h3>Técnico-científica</h3><ul>
+<li>Raiz positivista: objetividade, neutralidade, explicação de fenômenos</li>
+<li>Pedagogia como organização da instrução e da transmissão de conteúdos</li>
+<li>Normatiza e prescreve a prática, com fins definidos fora de quem ensina e aprende</li>
+<li>Hoje: competências, avaliações externas, regulação neoliberal</li></ul></div>
+<div class="box"><h3>Crítico-emancipatória</h3><ul>
+<li>Raiz dialética e histórica (Hegel, Marx, Freire)</li>
+<li>Pedagogia como prática social conduzida por pensamento reflexivo e crítico</li>
+<li>Prática pedagógica como sustentáculo, não como armadura, da docência</li>
+<li>Formação “na e para a práxis”: superação de opressão e alienação</li></ul></div>
+</div>
+<p class="strip">Diagnóstico da autora: a crítica perde espaço para pacotes instrucionais prontos, voltados a avaliações externas, e as mídias passam a competir com a escola como influência educacional.</p>
+</section>
+
+<section class="slide">
+<h2>Três princípios da prática pedagógica crítica</h2>
+<div class="grid">
+<div class="box"><h3>Intencionalidade</h3><p>As práticas se organizam em torno de intencionalidades e as perseguem por meios variados. O termo mais adequado é “insistência”: o professor não desiste do aluno, ouve, refaz, muda o caminho.</p></div>
+<div class="box"><h3>Resistências e desistências</h3><p>Muitas circunstâncias convergem na aula: formação, gestão, infraestrutura, interesses dos alunos. Trabalhar com contradições exige reflexão e posicionamento do professor.</p></div>
+<div class="box"><h3>Historicidade</h3><p>As práticas não podem ser congeladas nem executadas linearmente. Mudam por envolvimento crítico dos sujeitos, não por decretos. O imprevisto redireciona o processo.</p></div>
+</div>
+<p class="strip">Ensino e aprendizagem não têm correlação direta: planejar é necessário, mas o acompanhamento crítico e dialógico também. “Precisamos de ambos.”</p>
+</section>
+
+<section class="slide">
+<h2>Totalidade: a prática docente avulsa perde o sentido</h2>
+<div class="grid">
+<div class="box"><h3>Tese central</h3><p>Práticas pedagógicas só são compreendidas na totalidade, como mediação entre o particular e o todo social. Há um movimento “dentrofora” da escola.</p></div>
+<div class="box"><h3>Consequência</h3><p>O professor sozinho não transforma a sala de aula. A prática docente desligada do todo perde sentido e direção.</p></div>
+<div class="box"><h3>Saberes pedagógicos</h3><p>Permitem ler as práticas, perceber contradições e articular teoria e prática. O professor precisa ser formado como sujeito que produz saberes sobre a prática.</p></div>
+</div>
+<p class="strip">Conclusão da autora: direção de sentido emancipatória, crítica e inclusiva, construída a partir do coletivo.</p>
+</section>
+
+<section class="slide">
+<h2>BNCC Computação: tensões e possibilidades</h2>
+<p class="sub">A BNCC Computação organiza-se em três eixos: Pensamento Computacional, Mundo Digital e Cultura Digital. As relações abaixo são leituras nossas a partir do artigo, não afirmações da autora.</p>
+<div class="grid">
+<div class="box t"><h3>Tensões</h3><ul>
+<li>Computação como <i>poiesis</i>: ensinar ferramentas, linguagens e “receitas” de programação sem finalidade formativa</li>
+<li>Plataformas e pacotes instrucionais prontos substituindo a mediação do professor</li>
+<li>Competências e avaliações padronizadas reduzindo o digital a produto mensurável</li>
+<li>Desigualdades de acesso e condições de trabalho que o decreto não resolve</li></ul></div>
+<div class="box"><h3>Possibilidades</h3><ul>
+<li>Pensamento computacional como práxis: problematizar, decompor e agir sobre a realidade</li>
+<li>Cultura digital dos estudantes como “ingrediente do ensino”, aprendizagem de outras fontes e lógicas</li>
+<li>Mundo digital (algoritmos, dados, plataformas) como objeto de leitura crítica e consciência</li>
+<li>Imprevistos tecnológicos como espaço de análise, e não só de erro</li></ul></div>
+</div>
+</section>
+
+<section class="slide">
+<h2>Implicações para pensar a prática docente no mundo digital?</h2>
+<div class="grid">
+<div class="box"><h3>Intencionalidade antes da ferramenta</h3><p>Perguntar que formação humana a tecnologia serve. A técnica é produto do humano e não produtora das práticas.</p></div>
+<div class="box"><h3>Mediar, não repassar</h3><p>Transformar as influências de TV, internet e redes em processos pedagógicos emancipadores, partindo do que o aluno já traz.</p></div>
+<div class="box"><h3>Vigilância crítica</h3><p>Questionar algoritmos, dados e plataformas, inclusive os que organizam o próprio trabalho docente.</p></div>
+<div class="box"><h3>Planejar e acompanhar</h3><p>Planejar atividades digitais e deixar espaço ao imprevisto, avaliando processos e não apenas produtos.</p></div>
+<div class="box"><h3>Coletivo e formação</h3><p>Sem projeto coletivo, a computação vira prática avulsa. Formar professores como produtores de saberes pedagógicos sobre o digital.</p></div>
+<div class="box t"><h3>Condições reais</h3><p>Sem decreto: a mudança de prática depende do envolvimento crítico dos sujeitos e de condições de acesso e trabalho.</p></div>
+</div>
+</section>
+
+</main>
+<nav>
+<button id="p" aria-label="Slide anterior">Anterior</button>
+<span id="c" aria-live="polite"></span>
+<button id="n" aria-label="Próximo slide">Próximo</button>
+</nav>
+<script>
+(function(){
+var s=document.querySelectorAll('.slide'),i=0,c=document.getElementById('c'),p=document.getElementById('p'),n=document.getElementById('n');
+function go(k){
+i=Math.max(0,Math.min(s.length-1,k));
+for(var j=0;j<s.length;j++)s[j].classList.toggle('on',j===i);
+s[i].scrollTop=0;
+c.textContent=(i+1)+' / '+s.length;
+p.disabled=i===0;n.disabled=i===s.length-1;
+try{history.replaceState(null,'','#'+(i+1))}catch(e){}
+}
+p.onclick=function(){go(i-1)};n.onclick=function(){go(i+1)};
+document.addEventListener('keydown',function(e){
+if(e.key==='ArrowRight'||e.key==='PageDown'||e.key===' ')go(i+1);
+if(e.key==='ArrowLeft'||e.key==='PageUp')go(i-1);
+});
+var x=0;
+document.addEventListener('touchstart',function(e){x=e.touches[0].clientX},{passive:true});
+document.addEventListener('touchend',function(e){var d=e.changedTouches[0].clientX-x;if(Math.abs(d)>70)go(i+(d<0?1:-1))},{passive:true});
+var h=parseInt((location.hash||'').slice(1),10);
+go(isNaN(h)?0:h-1);
+})();
+</script>
+</body>
+</html>
